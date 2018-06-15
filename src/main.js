@@ -14,18 +14,20 @@ import '../src/styles/global-variables.scss'
 // import axios from 'axios';
 // Vue.prototype.axios=axios
 
-// // Bootstrap
-// import BootstrapVue from 'bootstrap-vue'
-// Vue.use(BootstrapVue);
-// import 'bootstrap/dist/css/bootstrap.css'
-// import 'bootstrap-vue/dist/bootstrap-vue.css'
+// Bootstrap
+import BootstrapVue from 'bootstrap-vue'
+import jquery from 'jquery'
+
+Vue.use(BootstrapVue);
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // jQuery for bootstrap
-// Vue.use({
-//   install: function(Vue){
-//       Vue.prototype.$jQuery = require('jquery');
-//   }
-// }); 
+Vue.use({
+  install: function(Vue){
+      Vue.prototype.$jQuery = require('jquery');
+  }
+}); 
 
 // Vue.prototype.axios = axios
 

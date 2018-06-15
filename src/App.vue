@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-
-    <navigation/>
-  <router-link to="/keepers">Keepers</router-link>
-    <router-link to="/givers">Givers</router-link>
-  <router-view></router-view>
+     <navigation> </navigation>
+    <index/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import index from './components/index.vue'
-import navigation from ''
+import navigation from './components/templates/navigation.vue'
 export default {
   name: 'app',
   components: {
+    navigation,
     index
   }
 }
