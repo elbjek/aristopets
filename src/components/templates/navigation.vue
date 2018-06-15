@@ -1,12 +1,12 @@
 <template>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <router-link to="/" class="navbar-brand" href="#">AristoPets</router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse d-flex flex-row justify-content-center" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -40,9 +40,9 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background-color:$white;
   .navigation{
-    background-color:$white !important;
+    background-color:transparent !important;
     max-width:1440px;
-    margin:0 auto;
+    margin:0 auto; 
   }
 }
 

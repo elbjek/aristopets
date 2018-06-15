@@ -5,7 +5,7 @@ import index from '../src/components/index.vue'
 
 export default new VueRouter({
     routes: [
-        {path:'/index', component:index},
+        {path:'/', component:index},
         {path:'/keepers', component: keepers},
         {path:'/givers', component:givers}
     ]

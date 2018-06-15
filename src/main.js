@@ -16,7 +16,6 @@ import '../src/styles/global-variables.scss'
 
 // Bootstrap
 import BootstrapVue from 'bootstrap-vue'
-import jquery from 'jquery'
 
 Vue.use(BootstrapVue);
 import 'bootstrap/dist/css/bootstrap.css'

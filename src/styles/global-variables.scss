@@ -1,7 +1,29 @@
 /* RGB */
-$orange: rgba(241, 80, 37, 1);
+$orange: rgb(241, 80, 37);
 $red: #F22435;
-$white: rgba(255, 251, 254, 1);
+$white: #f9f9f9;
 $light-gray: rgba(230, 232, 230, 1);
 $gray: rgba(206, 208, 206, 1);
 $black: rgba(3, 8, 20, 1);
+
+$whiteish : #EDE8E2;
+
+//BORDERS
+
+$border-gray: 3px solid $gray;
+
+$border-light: 2px solid $light-gray;
+$border-white: 3px solid $white;
+
+// $gradient: linear-gradient(140deg, rgba(255,252,156,0.5) 0%, rgba(214,80,37,0.5) 100%); /* w3c */
+
+
+.remove{
+    margin:0;
+    padding:0;
+}
+
+.container-fluid{
+    max-width:1440px;
+    margin:0 auto;
+  }

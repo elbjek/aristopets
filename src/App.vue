@@ -1,7 +1,6 @@
 <template>
   <div id="app">
      <navigation> </navigation>
-    <index/>
     <router-view></router-view>
   </div>
 </template>
@@ -23,6 +22,7 @@ export default {
 ;
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  background-color: $whiteish;
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
   // text-align: center;
