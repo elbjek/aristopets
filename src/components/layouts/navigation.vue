@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-
-    <navigation/>
-  <router-link to="/keepers">Keepers</router-link>
-    <router-link to="/givers">Givers</router-link>
-  <router-view></router-view>
+THIS IS A NAVIGATION
   </div>
 </template>
 
 <script>
 import index from './components/index.vue'
-import navigation from ''
+
 export default {
   name: 'app',
   components: {
@@ -20,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../src/styles/global-variables.scss'
-;
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   // -webkit-font-smoothing: antialiased;

@@ -1,26 +1,25 @@
 <template>
   <div id="app">
+  
+ Aloha bitch
+ 
 
-    <navigation/>
-  <router-link to="/keepers">Keepers</router-link>
-    <router-link to="/givers">Givers</router-link>
-  <router-view></router-view>
   </div>
 </template>
 
 <script>
-import index from './components/index.vue'
-import navigation from ''
+// import index from './components/index.vue'
+
 export default {
   name: 'app',
   components: {
-    index
+
   }
 }
 </script>
 
 <style lang="scss">
-@import '../src/styles/global-variables.scss'
+// @import '../../src/styles/global-variables.scss'
 ;
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
